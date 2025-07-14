@@ -20,7 +20,7 @@ class TextLayout extends StatelessWidget {
         SizedBox(height: 50),
         Text(
           "Flutter makes it easy to create beautiful UIs.",
-          style:TextStyle(fontSize: 25,color:Colors.lightGreen),
+          style:TextStyle(fontSize: 25,color:const Color.fromARGB(255, 212, 219, 205)),
         ),
         SizedBox(height: 40),
       ],
