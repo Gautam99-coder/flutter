@@ -8,7 +8,7 @@ class PaddingElement extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color:Colors.green,
+      color:const Color.fromARGB(255, 255, 255, 255),
       child:Padding(
         padding:const EdgeInsets.all(2),
         child:Container(

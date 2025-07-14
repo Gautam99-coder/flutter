@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:program1/calcul.dart';
+import 'package:program1/calculator.dart';
 import 'package:program1/first_experiment.dart';
 import 'package:program1/paddingConcept.dart';
 void main(){
@@ -12,7 +14,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp
       (
         debugShowCheckedModeBanner: false,
-      home:PaddingElement(),
+        home:Calcul(),
       );
   }
 }
